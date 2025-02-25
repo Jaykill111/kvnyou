@@ -485,7 +485,7 @@ class DiamondHeart {
       ],
       html5: true,
       pool: 1,
-      volume: 0.05,
+      volume: 0,
       onplay: () => {
         document.querySelector(".valentine-text").style.opacity = "1";
         document.querySelector(".loading-screen").style.opacity = "0";
